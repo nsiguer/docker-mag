@@ -6,6 +6,6 @@ services:
     build:
       context: .
     ports:
-      - 31978:31978/tcp
+      - 17177:17177/tcp
     volumes:
       - $PWD/.magnet:/root/.magnet
