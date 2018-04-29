@@ -1,0 +1,11 @@
+version: '2'
+services:
+  mn-mag:
+    image: mag
+    container_name: mn-mag
+    build:
+      context: .
+    ports:
+      - 31978:31978/tcp
+    volumes:
+      - $PWD/.magnet:/root/.magnet
