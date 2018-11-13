@@ -21,5 +21,5 @@ WORKDIR "/root"
 VOLUME ["/root/.magnet"]
 
 
-ENTRYPOINT ["/root/magnetd"]
+ENTRYPOINT ["/root/magd"]
 
