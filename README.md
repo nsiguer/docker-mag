@@ -1,2 +1,2 @@
-# docker-pnx
-Container for PhantomX MasterNode
+# docker-mag
+Container for Magnet MasterNode
